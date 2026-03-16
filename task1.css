@@ -1,0 +1,54 @@
+@font-face {
+    font-family: bigger;
+    src: url(./BMWMotorradW05-Bold.woff2);
+}
+@font-face {
+    font-family: smaller;
+    src: url(./BMWMotorradW05-Regular.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+}
+
+#header{
+    padding-top:2% ;
+    height: 25%;
+    color: #ffffff;
+    background-color: #1c172b;
+    text-align: center;
+    justify-content: center;
+}
+#header h1{
+    font-family: bigger;
+    font-size: 60px;
+}
+#header p{
+    padding: 2px;
+    font-family: smaller;
+    font-size: 20px;
+}
+
+#footer{
+    padding: 30px;
+    color: #ffffff;
+    background-color: #221c33;
+    text-align: center;
+    justify-content: center;
+    font-family: smaller;
+    font-size: 16px;
+
+}
